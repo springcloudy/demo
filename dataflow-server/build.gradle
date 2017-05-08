@@ -1,0 +1,12 @@
+dependencyManagement {
+    imports {
+        mavenBom "org.springframework.cloud:spring-cloud-dataflow-dependencies:$springDataflowVersion"
+    }
+}
+
+dependencies {
+    compile 'org.springframework.cloud:spring-cloud-starter-dataflow-server-local'
+    compile 'org.springframework.cloud:spring-cloud-starter-eureka'
+//    compile 'org.springframework.boot:spring-boot-starter-actuator'
+    testCompile 'org.springframework.cloud:spring-cloud-dataflow-rest-client'
+}

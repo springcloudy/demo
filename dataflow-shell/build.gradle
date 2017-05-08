@@ -1,0 +1,10 @@
+dependencyManagement {
+    imports {
+        mavenBom "org.springframework.cloud:spring-cloud-dataflow-dependencies:$springDataflowVersion"
+    }
+}
+
+dependencies {
+    compile 'org.springframework.cloud:spring-cloud-dataflow-shell-core'
+    compile 'org.springframework.cloud:spring-cloud-starter-eureka'
+}
