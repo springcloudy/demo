@@ -13,3 +13,7 @@
 * service-registry: 8761/
 * admin: 8082/
 * dataflow-server: 9393/dashboard
+
+### Test URLs:
+
+* http://localhost:8080/dummy/hello
