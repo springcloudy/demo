@@ -1,6 +1,3 @@
-info:
-  component: Zuul Server
-
 endpoints:
   restart:
     enabled: true

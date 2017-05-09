@@ -8,6 +8,9 @@ eureka:
     instance:
       preferIpAddress: true
 
+server:
+  port: 8083
+
 management:
   security.enabled: false
   context-path: /

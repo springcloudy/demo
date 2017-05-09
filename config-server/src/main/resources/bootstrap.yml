@@ -1,3 +1,6 @@
 spring:
   application:
     name: config-server
+
+info:
+  component: config-server
